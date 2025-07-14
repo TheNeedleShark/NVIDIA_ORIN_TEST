@@ -46,3 +46,9 @@ while cap.isOpened():
         display.SetStatus("DetectNet | {:.0f} FPS".format(net.GetNetworkFPS()))
     else:
         print("ℹ️ Waiting for WebRTC connection...")
+
+
+
+
+
+
