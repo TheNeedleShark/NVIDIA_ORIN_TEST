@@ -1,7 +1,11 @@
+import torch
+from ultralytics.nn.tasks import DetectionModel
+
+torch.serialization.add_safe_globals([DetectionModel])
+
 import cv2
 import subprocess
 import json
-import torch
 from ultralytics import YOLO
 from jetson_utils import cudaFromNumpy, videoOutput, cudaDrawRect
 
