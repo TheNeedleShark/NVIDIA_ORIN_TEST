@@ -1,8 +1,12 @@
 import cv2
 import subprocess
 import json
+import torch
 from ultralytics import YOLO
 from jetson_utils import cudaFromNumpy, videoOutput, cudaDrawRect
+
+print(torch.version.cuda)      # should show CUDA version, not None
+print(torch.cuda.is_available())  # should return True
 
 # 1. Get direct stream URL via yt-dlp
 def get_youtube_stream_url(youtube_url):
