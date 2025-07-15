@@ -12,7 +12,7 @@ def get_youtube_stream_url(youtube_url):
     return metadata['url']
 
 
-youtube_page_url = 'https://www.youtube.com/watch?v=w3LjpFhySTg'
+youtube_page_url = 'https://www.youtube.com/watch?v=tEtg5Kg3voQ'
 stream_url = get_youtube_stream_url(youtube_page_url)
 print(f"🎥 Using livestream URL: {stream_url}")
 
