@@ -3,6 +3,9 @@ import subprocess
 import json
 from ultralytics import YOLO
 from jetson_utils import cudaFromNumpy, videoOutput, cudaDrawRect
+import torch
+
+model = torch.load('your_model.pt', map_location='cpu', weights_only=False)
 
 # Get the direct stream URL using yt-dlp
 def get_youtube_stream_url(youtube_url):
