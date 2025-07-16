@@ -1,7 +1,6 @@
 import cv2
 import subprocess
 import json
-import torch
 from ultralytics import YOLO
 from jetson_utils import cudaFromNumpy, videoOutput, cudaDrawRect
 
