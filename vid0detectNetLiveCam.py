@@ -1,9 +1,12 @@
 import torch
 from ultralytics.nn.tasks import DetectionModel
-from torch.nn.modules.container import Sequential
+from torch.nn.modules.container import Sequential, ModuleList
+from ultralytics.nn.tasks import DetectionModel
+from ultralytics.nn.modules.conv import Conv
 
 torch.serialization.add_safe_globals([DetectionModel])
 torch.serialization.add_safe_globals([Sequential])
+torch.serialization.add_safe_globals([DetectionModel, Conv, Sequential, ModuleList])
 
 import cv2
 import subprocess
