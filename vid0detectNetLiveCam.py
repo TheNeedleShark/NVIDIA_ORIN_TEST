@@ -53,7 +53,7 @@ while True:
         # Draw bounding box
         cudaDrawRect(cuda_img, (x1, y1, x2, y2), (255, 0, 0, 255))
         # Draw class label
-        font.OverlayText(cuda_img, text=class_name, x=x1 + 5, y=y1 + 5, color=(255, 255, 255, 255), background=(0, 0, 0, 160))
+        font.OverlayText(cuda_img, text=class_name, x=x1 + 5, y=y1 + 5, color=(0, 255, 0, 128), background=(0, 0, 0, 160))
 
     print(f"✅ {len(results.boxes)} objects detected")
 
