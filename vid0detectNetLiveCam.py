@@ -4,7 +4,6 @@ import json
 import torch
 from ultralytics import YOLO
 from jetson_utils import cudaFromNumpy, videoOutput, cudaDrawRect
-
 # Get the direct stream URL using yt-dlp
 def get_youtube_stream_url(youtube_url):
     cmd = ['yt-dlp', '-f', 'best[ext=mp4]', '--no-warnings', '-j', youtube_url]
