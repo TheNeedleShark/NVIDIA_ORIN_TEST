@@ -1,0 +1,13 @@
+train: /full/path/to/YOLOv8_dataset/train/images
+val:   /full/path/to/YOLOv8_dataset/val/images
+
+nc: 8  # replace with the number of classes in your dataset
+names:
+  0: Bat Ray
+  1: Big Skate
+  2: Giant Bass
+  3: Leopard Shark
+  4: Rock Fish
+  5: Sevengill Shark
+  6: Striped Bass
+  7: Sturgeon
