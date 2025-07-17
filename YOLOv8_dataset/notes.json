@@ -1,0 +1,41 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Bat Ray"
+    },
+    {
+      "id": 1,
+      "name": "Big Skate"
+    },
+    {
+      "id": 2,
+      "name": "Giant Bass"
+    },
+    {
+      "id": 3,
+      "name": "Leopard Shark"
+    },
+    {
+      "id": 4,
+      "name": "Rock Fish"
+    },
+    {
+      "id": 5,
+      "name": "Sevengill Shark"
+    },
+    {
+      "id": 6,
+      "name": "Striped Bass"
+    },
+    {
+      "id": 7,
+      "name": "Sturgeon"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}
