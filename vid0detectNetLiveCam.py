@@ -12,7 +12,7 @@ def get_youtube_stream_url(youtube_url):
     return metadata['url']
 
 # Load the YOLOv8 model (GPU will be used automatically if available)
-model = YOLO('yolov8n.pt')  # or yolov8s.pt, yolov8m.pt depending on Jetson capability
+model = YOLO('yolov8-shark_cam.pt')  # or yolov8s.pt, yolov8m.pt depending on Jetson capability
 
 # Retrieve livestream URL
 youtube_page_url = 'https://www.youtube.com/watch?v=tEtg5Kg3voQ'
