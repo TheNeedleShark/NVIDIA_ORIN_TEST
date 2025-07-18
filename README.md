@@ -56,21 +56,24 @@ YOLOv8_dataset/
 ├── labels/              # YOLO-format .txt label files
 
 
-
+```
 ### to train the model, run :
-
+```
 python3 training_yolov8.py
-
+```
 ### make sure the dataset folder is in the same directory as this file
 
 
 ### when running the main file, make sure you see these two
+```
 ✅ 3 objects detected
 ℹ️ WebRTC videoOutput initialized and waiting for connection...
+```
 ### then you are ready to connect!
 ### the stream should be at
-
+```
 http://<ip_address>:8554/youtube
+```
 ### if it doesnt work remove '/youtube'
 
 # Now you should be all set!
