@@ -62,17 +62,19 @@ sudo ldconfig
 
 !!!!!!!!! DATASET STRUCTURE !!!!!!!!!!!!
 ### make sure it looks like this: 
+```
 YOLOv8_dataset/
 ├── classes.txt          # List of class names (one per line)
 ├── images/              # Raw image files
 ├── labels/              # YOLO-format .txt label files
-
-
 ```
+
+
 ### to train the model, run :
 ```
 python3 training_yolov8.py
 ```
+
 ### make sure the dataset folder is in the same directory as this file
 
 
