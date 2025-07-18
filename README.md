@@ -61,7 +61,7 @@ sudo ldconfig
 
 
 !!!!!!!!! DATASET STRUCTURE !!!!!!!!!!!!
-### make sure it looks like this: 
+ make sure it looks like this: 
 ```
 YOLOv8_dataset/
 ├── classes.txt          # List of class names (one per line)
@@ -74,17 +74,16 @@ YOLOv8_dataset/
 ```
 python3 training_yolov8.py
 ```
+ make sure the dataset folder is in the same directory as this file
 
-### make sure the dataset folder is in the same directory as this file
 
-
-### when running the main file, make sure you see these two
+ when running the main file, make sure you see these two
 ```
 ✅ 3 objects detected
 ℹ️ WebRTC videoOutput initialized and waiting for connection...
 ```
 ### then you are ready to connect!
-### the stream should be at
+ the stream should be at
 ```
 http://<ip_address>:8554/youtube
 ```
